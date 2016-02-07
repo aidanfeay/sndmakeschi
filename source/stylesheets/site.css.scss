@@ -32,8 +32,10 @@ body {
     .logo img {
       pointer-events: none;
       width: 140px;
+      margin-left: 40px;
     }
     .links ul {
+      margin-right: 40px;
       li {
         display: inline;
         line-height: 40px;
