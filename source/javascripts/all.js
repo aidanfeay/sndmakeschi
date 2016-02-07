@@ -1,7 +1,7 @@
 (function($) {
   $(document).ready(function(){
     var heroCounter = 0;
-    var heros = ['../images/example_product.jpg','../images/example_product_2.jpg'];
+    var heros = ['../images/example_product_3.jpg','../images/example_product_2.jpg'];
 
     window.setInterval(function(){
       $('#hero').css('background','url('+heros[heroCounter]+')');
