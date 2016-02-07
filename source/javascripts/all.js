@@ -1,7 +1,7 @@
 (function($) {
   $(document).ready(function(){
     var heroCounter = 0;
-    var heros = ['http://placekitten.com/2400/1200','http://placekitten.com/2400/1600','http://placekitten.com/1600/1200'];
+    var heros = ['../images/example_product.jpg','../images/example_product_2.jpg'];
 
     window.setInterval(function(){
       $('#hero').css('background','url('+heros[heroCounter]+')');
