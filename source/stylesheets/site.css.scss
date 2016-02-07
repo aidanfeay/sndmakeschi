@@ -7,6 +7,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
 
 $card-grey: #BABABA;
+$card-light-grey: lighten($card-grey, 20%);
 $soft-white: #FAFAFA;
 
 body {
@@ -25,7 +26,7 @@ body {
     justify-content: space-between;
     vertical-align: middle;
     width: calc(100% - 2em);
-    border-bottom: darken($soft-white, 5%);
+    border-bottom: 1px solid $card-light-grey;
     &.fixed {
       position: fixed;
     }
@@ -90,7 +91,7 @@ body {
   }
   #footer {
     user-select: none;
-    border-top: darken($soft-white, 5%);
+    border-top: 1px solid $card-light-grey;
     ul li {
       list-style: none;
     }
