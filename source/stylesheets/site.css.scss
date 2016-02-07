@@ -1,7 +1,10 @@
 @charset "utf-8";
 
 @import "normalize";
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
 
 body {
   font-size: 1em;
@@ -9,8 +12,8 @@ body {
   #footer {
     background: #e6e6e6;
     padding: 1em;
-    font-family: 'Montserrat', 'Gotham', 'Arial', sans-serif;
-
+    font-family: 'Oswald', 'Knockout', 'Arial', sans-serif;
+    text-transform: uppercase;
   }
   #nav {
     display: flex;
@@ -44,6 +47,13 @@ body {
     padding: 20px;
     margin: 0 auto;
     max-width: 640px;
+    font-family: 'Roboto', 'Montserrat', 'Gotham', 'Arial', sans-serif;
+    p {
+      line-height: 1.5em;
+      font-size: 18px;
+      font-weight: 300;
+      color: #292929;
+    }
   }
   #footer {
     text-align: center;
