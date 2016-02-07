@@ -91,6 +91,17 @@ body {
         display: inline-block;
       }
     }
+    .downloadButton {
+      text-transform: uppercase;
+      background-color: $card-grey;
+      height: 36px;
+      border-radius: 6px;
+      cursor: pointer;
+      p {
+        text-align: center;
+        padding: 4px 8px;
+      }
+    }
   }
   #footer {
     user-select: none;
