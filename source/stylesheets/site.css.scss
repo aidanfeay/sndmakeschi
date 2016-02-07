@@ -30,6 +30,7 @@ body {
       position: fixed;
     }
     .logo img {
+      pointer-events: none;
       width: 140px;
     }
     .links ul {
@@ -40,7 +41,7 @@ body {
           margin-right: 2em;
         }
         a {
-          text-decoration: none;
+          user-select: none;
           color: #292929;
         }
       }
@@ -75,12 +76,13 @@ body {
     }
     .quad {
       img {
-        max-width: 50%;
+        max-width: 25%;
         display: inline-block;
       }
     }
   }
   #footer {
+    user-select: none;
     border-top: darken($soft-white, 5%);
     .row {
       display: flex;
@@ -91,13 +93,20 @@ body {
         text-align: left;
         max-width: 30%;
         a {
+          user-select: none;
           color: #292929;
-          text-decoration: none;
         }
       }
     }
   }
   ul li {
     list-style: none;
+  }
+  a {
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
