@@ -16,9 +16,10 @@
       }
     };
 
-    $('.links a').click(function(){
+    $('.links a').click(function(e){
+      e.preventDefault();
       var targetEl = $(this).attr('href');
-      window.animate({ scrollTop: $(targetEl).offset().top - 140}, 1000);
+      $('body').animate({ scrollTop: $(targetEl).offset().top - 140}, 1000);
     });
 
     $(window).scroll(function(){
