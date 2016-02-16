@@ -66,6 +66,9 @@ body {
     h4 {
       font-family: 'Oswald', 'Knockout', 'Arial', sans-serif;
       text-transform: uppercase;
+      a {
+        color: $card-grey;
+      }
     }
     h3 {
       &:not(:first-of-type) {
